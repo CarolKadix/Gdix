@@ -1,0 +1,123 @@
+/*HEADER */
+.dmbs-header {
+
+}
+
+
+.dmbs-header-img {
+  text-align: center;
+}
+
+.dmbs-header-img img{
+   padding: 0;
+   margin-top: -30px;
+   margin-left: -10px;
+}
+
+.dmbs-header-text {
+
+}
+
+.dmbs-header-top {
+  background-color: #BB5853;
+  padding: 0;
+  color: #faba8a;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 600; 
+}
+.dmbs-header-top p {  
+  padding-top: 10px; 
+  padding-left: 0;   
+  color: #faba8a;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.dmbs-header-top ul {
+  float: right;
+  padding-bottom: 0px;
+  margin-bottom: 0;
+
+}
+
+.dmbs-top-menu {
+  background: #BB5853 url(../img/bg_header.jpg) repeat-x 0 center;
+  border-color: #BB5853;
+  height: 111px;
+}
+
+.dmbs-header-social .fa{
+	color: #faba8a;
+	font-size: 16px 
+}
+
+.dmbs-header-social li { 
+	float: left;
+	list-style: none;
+	padding: 11px 5px 0;
+}
+.dmbs-header-social li a {
+	padding: 11px 0 5px;
+}
+.dmbs-header-social li#busca {
+	padding: 0
+}
+.dmbs-header-social input#navbar-search{
+  background: #933C38;
+  border: 0;
+  border-radius: 0;
+  height: 25px;
+  padding: 0 5px;
+  width: 100px;
+  color: #ff3366;
+}
+
+/* nav */
+.navbar-collapse {  padding-top: 12px;}
+.navbar-default .navbar-nav > li > a {
+  color: #FFF;
+  font-size: 24px;
+  background: transparent url(../img/star.png) no-repeat 0 center;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+.navbar-nav > li > a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 20px;
+  font-family: 'Lobster', Georgia, Helvetica, Arial;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	color: #fbcc74;
+}
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+	background-color: transparent;
+	color: #fbcc74;
+}
+
+
+/* mobile */
+.show {
+  display: block !important;
+}
+.hidden {
+  display: none !important;
+  visibility: hidden !important;
+}
+.invisible {
+  visibility: hidden;
+}
+
+/*Usage as mixins*/
+.element {
+  .show();
+}
+.another-element {
+  .hidden();
+}

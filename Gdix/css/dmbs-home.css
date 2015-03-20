@@ -1,0 +1,20 @@
+/* HOME */
+
+#home .dmbs-right{ 
+  float: right;
+  margin-top: 18px;}
+
+#slide .carousel-control.right,
+#slide .carousel-control.left { display: none}
+
+#slide .carousel-caption {
+  background: #000;
+}
+
+#slide .carousel-caption h3 a{ 
+	font-size: 30px;
+	color: #fff;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+#slide .carousel-caption p { display: none}

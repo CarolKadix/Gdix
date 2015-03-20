@@ -1,0 +1,23 @@
+/* FOOTER */
+.dmbs-footer-menu {
+
+}
+
+.dmbs-author-credits {
+
+}
+
+.dmbs-footer {
+	background: #875942 url(../img/bg_title_mini.jpg) repeat-x 0 top;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Lobster', Georgia, Helvetica, Arial;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+    padding: 20px 0 20px;
+    text-align: center;
+}
+.dmbs-footer a { 
+	color: #fbcc74;
+	text-decoration: none;
+}

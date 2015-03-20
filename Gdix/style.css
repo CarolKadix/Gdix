@@ -1,0 +1,118 @@
+/*
+Theme Name: Gdix
+Theme URI: www..guiadohamburguer.com.br
+Author: Kadix
+Author URI: http://www.kadix.com.br
+Description: tema exclusivo personalizado para o Guia do Hambúrguer
+Version: 3.0
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: gdix
+Template: devdmbootstrap3
+*/
+
+@import "css/bootstrap.css";
+@import "css/dmbs-header.css";
+@import "css/dmbs-home.css";
+@import "css/dmbs-content.css";
+@import "css/dmbs-footer.css";
+
+/* ADMIN */
+
+
+/* ESTRUTURA GERAL*/
+
+body { 
+ font-family: 'Open Sans', Arial, sans-serif;
+ padding-bottom: 0;
+}
+a {color: #c0494d}
+
+p {
+  color: #888;
+  font-weight: normal;
+  font-size: 15px;
+  text-shadow: none;
+  padding: 10px 0;
+  margin-bottom: 0;
+  text-transform: none;
+}
+
+.attachment-post-thumbnail {
+  float: left;
+  margin: 0px 10px 0 0;
+}
+
+
+.btn-info, 
+.comment-respond #submit, 
+#searchform #searchsubmit {
+  margin-top: 0;
+  background-color: #f3bb57;
+  border-bottom: 2px solid #c2923c;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: normal;
+  font-weight: 600;
+  border-left: #f3bb57;
+  border-right: #f3bb57;
+  border-top: #f3bb57;
+  border-radius: 3px;
+}
+#searchform label { display: none}
+
+.form-control, #searchform #s {
+  display: block;
+  width: 65%;
+  float: left;
+  margin-right: 10px;
+  height: 30px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555555;
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  box-shadow: none;
+  transition: none;
+}
+.btn-info:hover,
+.btn-info:focus,
+.btn-info.focus,
+.btn-info:active,
+.btn-info.active,
+.open > .dropdown-toggle.btn-info,
+.comment-respond #submit:hover,
+.comment-respond #submit:focus,
+.comment-respond #submit.focus,
+.comment-respond #submit:active,
+.comment-respond #submit.active,
+.open > .dropdown-toggle.comment-respond #submit,
+#searchform #searchsubmit:hover,
+#searchform #searchsubmit:focus,
+#searchform #searchsubmit.focus,
+#searchform #searchsubmit:active,
+#searchform #searchsubmit.active,
+.open > .dropdown-toggle#searchform #searchsubmit {
+  color: #ffffff;
+  background-color: #FDC45E;
+  border-bottom: 2px solid #c2923c;
+  border-radius: 4px;
+}
+
+.dmbs-container {
+
+}
+
+/* EFEITOS */
+
+
+/* PLUGINS EXTERNOS */
+
+
+
+
+
+
